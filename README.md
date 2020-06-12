@@ -18,6 +18,3 @@
 
 ## *Data Visualization
 #### Data visualization is the graphic representation of data. It involves producing images that communicate relationships among the represented data to viewers of the images.
-this is it 
-this is not it.
-we will be right back.
