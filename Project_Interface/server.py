@@ -138,6 +138,17 @@ def fg5():
 
 @app.route("/fg6")
 def fg6():
+        return render_template("/f_mobiles.html")
+
+
+@app.route("/fg7")
+def fg7():
+    return render_template("/f_pendrives.html")
+
+
+@app.route("/fg8")
+def fg8():
+    return render_template("/f_power_banks.html")
 
 
 @app.route("/fg9")
@@ -151,15 +162,3 @@ def fg10():
 
 
 app.run(host="0.0.0.0", port=4500, debug=True)
-
-    return render_template("/f_mobiles.html")
-
-
-@app.route("/fg7")
-def fg7():
-    return render_template("/f_pendrives.html")
-
-
-@app.route("/fg8")
-def fg8():
-    return render_template("/f_power_banks.html")
